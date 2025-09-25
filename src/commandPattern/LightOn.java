@@ -1,6 +1,5 @@
 package commandPattern;
 
-// Command implementations for Light
 public class LightOn implements Command {
     private Light light;
 
@@ -13,6 +12,7 @@ public class LightOn implements Command {
         return light.turnOn();
     }
 }
+
 
 
 
