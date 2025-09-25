@@ -1,12 +1,11 @@
 package commandPattern;
 
-// Concrete Device: Thermostat
 public class Thermostat extends Device {
     private int temperature;
 
     public Thermostat(String name) {
         super(name);
-        this.temperature = 20; // Default temperature in Celsius
+        this.temperature = 25; //in Celsius
     }
 
     @Override
@@ -28,4 +27,5 @@ public class Thermostat extends Device {
         temperature -= 1;
         return name + " temperature decreased to " + temperature + "°C";
     }
+
 }
