@@ -1,6 +1,5 @@
 package commandPattern;
 
-// Central hub to control devices
 public class SmartHomeHub {
     private Command command;
 
@@ -14,4 +13,5 @@ public class SmartHomeHub {
         }
         return "No command set";
     }
+
 }
