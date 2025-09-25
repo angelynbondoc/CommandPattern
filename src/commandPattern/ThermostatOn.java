@@ -1,6 +1,5 @@
 package commandPattern;
 
-// Command implementations for Thermostat
 public class ThermostatOn implements Command {
     private Thermostat thermostat;
 
@@ -13,6 +12,7 @@ public class ThermostatOn implements Command {
         return thermostat.turnOn();
     }
 }
+
 
 
 
