@@ -7,13 +7,13 @@ public class MusicPlayer extends Device {
 
     public MusicPlayer(String name) {
         super(name);
-        this.volume = 50; // Default volume
+        this.volume = 50; //default volume
         this.currentPlaylist = "None";
     }
 
     @Override
     public String turnOn() {
-        currentPlaylist = "Default Playlist";
+        currentPlaylist = "Favorite Playlist";
         return name + " is turned on, playing " + currentPlaylist;
     }
 
@@ -36,4 +36,5 @@ public class MusicPlayer extends Device {
         }
         return name + " volume decreased to " + volume;
     }
+
 }
